@@ -3,9 +3,9 @@ import React from "react";
 const Card = () => {
     return (
         <>
-            <div classNAme="card">
-            <h2>1</h2>
-            <img src="" />
+            <div className="card">
+                <h2>1</h2>
+                <img src="./images/charmander.png" alt="" />
             </div>
         </>
     )
