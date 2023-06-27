@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import Pokemon from "./Pokemon";
+import Pokemon from "./PokemonInfo";
 import axios from "axios"
 
 const Main = () => {
@@ -15,11 +15,8 @@ const Main = () => {
                     <Card />
                     <Card />
                 </div>
-
-
-
                 <div className="right-content">
-
+                    <PokemonInfo />
                 </div>
             </div>
         </>
