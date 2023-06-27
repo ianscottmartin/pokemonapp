@@ -5,7 +5,7 @@ const Card = () => {
         <>
             <div className="card">
                 <h2>1</h2>
-                <img src="./images/charmander.png" alt="" />
+                <img src="./charmander.png" alt="" />
             </div>
         </>
     )
