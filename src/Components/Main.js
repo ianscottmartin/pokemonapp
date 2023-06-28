@@ -4,7 +4,7 @@ import Pokemoninfo from "./PokemonInfo";
 
 import axios from "axios";
 import { useState } from "react";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 const Main = () => {
     const [pokeData, setPokeData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -31,7 +31,7 @@ const Main = () => {
             })
         })
     }
-    useEffect(() => {
+    useState(() => {
         pokeFun();
     }, [url])
     return (
