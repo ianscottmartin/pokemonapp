@@ -36,7 +36,7 @@ body {
 .right-content {
   width: 50%;
   text-align: center;
-  color: black;
+  color: rgb(173, 184, 186);
   position: fixed;
   top: 100px;
   right: 10px;
