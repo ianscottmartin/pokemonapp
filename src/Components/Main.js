@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import Pokemon from "./PokemonInfo";
+import PokemonInfo from "./PokemonInfo";
 import axios from "axios"
 
 const Main = () => {
