@@ -1,7 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import PokemonInfo from "./PokemonInfo";
-import axios from "axios"
+
+// import axios from "axios"
 
 const Main = () => {
     return (
@@ -14,6 +15,11 @@ const Main = () => {
                     <Card />
                     <Card />
                     <Card />
+
+                    <div className="btn-group">
+                        <button>Previous</button>
+                        <button>Next</button>
+                    </div>
                 </div>
                 <div className="right-content">
                     <PokemonInfo />
