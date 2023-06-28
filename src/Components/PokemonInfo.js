@@ -8,6 +8,7 @@ const PokemonInfo = () => {
             <div className="abilities">
                 <div className="group">
                     <h2>blaze</h2>
+                    <h2>solar-power</h2>
                 </div>
             </div>
             <div className="base-stat">
