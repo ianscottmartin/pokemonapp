@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 import PokemonInfo from "./PokemonInfo";
 
-// import axios from "axios"
+
+import axios from "axios"
 
 const Main = () => {
+    const [pokeData, setPokeData] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [url, setUrl] = useState()
     return (
         <>
             <div className="container">
