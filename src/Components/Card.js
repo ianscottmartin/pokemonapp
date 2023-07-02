@@ -1,5 +1,5 @@
 import React from "react";
-const Card = ({ pokemon, loading, infoPokemon }) => {
+const Card = ({ pokemon, loading, infoPokemon, newPokomon}) => {
     // console.log(pokemon);
     return (
         <>
