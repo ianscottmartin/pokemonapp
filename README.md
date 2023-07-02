@@ -1,10 +1,10 @@
-
 In the project directory, you can run:
 
 ### `npm start`
 
 https://github.com/ianscottmartin/json-server-template
 
+blog phase 2 https://medium.com/@ianscottmartin/how-to-download-a-react-app-to-a-local-computer-4c83992203
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
