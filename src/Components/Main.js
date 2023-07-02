@@ -1,10 +1,9 @@
 import React from "react";
 import Card from "./Card";
-import Pokemoninfo from "./PokemonInfo";
-
+import Pokeinfo from "./PokeInfo";
 import axios from "axios";
 import { useState } from "react";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 const Main = () => {
     const [pokeData, setPokeData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -31,7 +30,7 @@ const Main = () => {
             })
         })
     }
-    useState(() => {
+    useEffect(() => {
         pokeFun();
     }, [url])
     return (
@@ -54,7 +53,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="right-content">
-                    <Pokemoninfo data={pokeDex} />
+                    <Pokeinfo data={pokeDex} />
                 </div>
             </div>
         </>
