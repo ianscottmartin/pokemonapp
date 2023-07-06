@@ -1,4 +1,5 @@
 Pokemon App
+To run appplication use the db/json template server
 
 https://github.com/ianscottmartin/json-server-template
 
@@ -7,9 +8,7 @@ blog phase 2 https://medium.com/@ianscottmartin/how-to-download-a-react-app-to-a
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-
-
-Description is Single Page application app made by create-react app exploring data on Pokemon from pokemon api
+Description : This is a Single Page application app made by create-react app exploring data on Pokemon from pokemon api
 
 How to load site/app
 
