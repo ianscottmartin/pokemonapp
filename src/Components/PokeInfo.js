@@ -1,5 +1,5 @@
 import React from "react";
-import PokemonForm from "../PokemonForm";
+// import PokemonForm from "../PokemonForm";
 const Pokeinfo = ({ data }) => {
 
     return (
